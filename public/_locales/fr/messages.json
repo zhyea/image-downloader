@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "Trouve des images sur les pages, filtre par taille, miniatures, copie les liens et téléchargement par lots. Réglages pour largeur et colonnes."
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — Paramètres"
+  },
+  "settingsLead": {
+    "message": "Modifiez l’apparence de la fenêtre contextuelle. Les changements sont enregistrés automatiquement."
+  },
+  "settingsLabelPopupWidth": {
+    "message": "Largeur de la fenêtre"
+  },
+  "settingsHintPopupWidth": {
+    "message": "Entre 320 et 800 pixels."
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "Colonnes de la grille"
+  },
+  "settingsHintGridColumns": {
+    "message": "De 1 à 6 colonnes."
+  },
+  "settingsValueColumns": {
+    "message": "$1$ colonnes",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "Si la fenêtre est ouverte, les changements s’appliquent tout de suite, sinon à la prochaine ouverture."
+  },
+  "tooltipSettings": {
+    "message": "Ouvrir les paramètres"
+  },
+  "extActionTitle": {
+    "message": "Trouver et télécharger les images de la page"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "Actualiser"
+  },
+  "downloadSelected": {
+    "message": "Télécharger la sélection"
+  },
+  "tooltipRefresh": {
+    "message": "Rescanner la page"
+  },
+  "tooltipDownloadSelected": {
+    "message": "Télécharger les images cochées selon le filtre actuel"
+  },
+  "selectAll": {
+    "message": "Tout sélectionner"
+  },
+  "deselectAll": {
+    "message": "Tout désélectionner"
+  },
+  "tooltipSelectAll": {
+    "message": "Sélectionner toutes les images du filtre actuel"
+  },
+  "tooltipDeselectAll": {
+    "message": "Effacer la sélection des images filtrées"
+  },
+  "selectForDownload": {
+    "message": "Inclure dans le téléchargement groupé"
+  },
+  "statusScanning": {
+    "message": "Analyse…"
+  },
+  "errNoTab": {
+    "message": "Impossible d’obtenir l’onglet actif."
+  },
+  "errRestrictedPage": {
+    "message": "Cette page ne prend pas en charge les extensions (page interne du navigateur)."
+  },
+  "errInject": {
+    "message": "Impossible d’injecter le script : $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "Échec de l’analyse"
+  },
+  "statusNoImages": {
+    "message": "Aucune image téléchargeable trouvée."
+  },
+  "statusCount": {
+    "message": "$1$ images au total, $2$ correspondent au filtre",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "Télécharger"
+  },
+  "queued": {
+    "message": "Ajouté"
+  },
+  "failed": {
+    "message": "Échec"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "Largeur · $1$–$2$ px (max $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "Hauteur · $1$–$2$ px (max $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "Plage de largeur"
+  },
+  "ariaHeightRange": {
+    "message": "Plage de hauteur"
+  },
+  "titleMinWidth": {
+    "message": "Largeur minimale"
+  },
+  "titleMaxWidth": {
+    "message": "Largeur maximale"
+  },
+  "titleMinHeight": {
+    "message": "Hauteur minimale"
+  },
+  "titleMaxHeight": {
+    "message": "Hauteur maximale"
+  },
+  "filterHint": {
+    "message": "Si la largeur ou la hauteur n’est pas sur toute la plage, les images sans cette dimension sont exclues. La taille totalement inconnue (0×0) n’apparaît que lorsque les deux curseurs couvrent toute la plage."
+  },
+  "dimUnknown": {
+    "message": "Taille inconnue"
+  },
+  "sourceImg": {
+    "message": "Image"
+  },
+  "sourcePicture": {
+    "message": "Élément picture"
+  },
+  "sourceVideoPoster": {
+    "message": "Aperçu vidéo"
+  },
+  "sourceFavicon": {
+    "message": "Favicon"
+  },
+  "sourceInlineStyle": {
+    "message": "Style en ligne"
+  },
+  "sourceCssBackground": {
+    "message": "Fond CSS"
+  },
+  "sourceUnknown": {
+    "message": "Autre"
+  },
+  "copyLink": {
+    "message": "Copier le lien"
+  },
+  "linkCopied": {
+    "message": "Copié"
+  },
+  "copyFailed": {
+    "message": "Échec de la copie"
+  },
+  "tooltipCopyLink": {
+    "message": "Copier l’URL de l’image"
+  }
+}

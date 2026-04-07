@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "पृष्ठों पर छवियाँ खोजें, आकार से फ़िल्टर करें, थंबनेल देखें, लिंक कॉपी करें और बैच डाउनलोड करें। सेटिंग्स में पॉपअप चौड़ाई और ग्रिड कॉलम की संख्या समायोजित करें।"
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — सेटिंग्स"
+  },
+  "settingsLead": {
+    "message": "पॉपअप का रूप बदलें। बदलाव स्वतः सहेजे जाते हैं।"
+  },
+  "settingsLabelPopupWidth": {
+    "message": "पॉपअप चौड़ाई"
+  },
+  "settingsHintPopupWidth": {
+    "message": "320 से 800 पिक्सेल के बीच।"
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "थंबनेल ग्रिड कॉलम"
+  },
+  "settingsHintGridColumns": {
+    "message": "1 से 6 कॉलम।"
+  },
+  "settingsValueColumns": {
+    "message": "$1$ कॉलम",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "पॉपअप खुला हो तो बदलाव तुरंत लागू; वरना अगली बार खोलने पर।"
+  },
+  "tooltipSettings": {
+    "message": "सेटिंग्स खोलें"
+  },
+  "extActionTitle": {
+    "message": "पृष्ठ की छवियां खोजें और डाउनलोड करें"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "रीफ़्रेश"
+  },
+  "downloadSelected": {
+    "message": "चयनित डाउनलोड करें"
+  },
+  "tooltipRefresh": {
+    "message": "पृष्ठ को फिर से स्कैन करें"
+  },
+  "tooltipDownloadSelected": {
+    "message": "वर्तमान फ़िल्टर में चयनित छवियाँ डाउनलोड करें"
+  },
+  "selectAll": {
+    "message": "सभी चुनें"
+  },
+  "deselectAll": {
+    "message": "सभी का चयन हटाएँ"
+  },
+  "tooltipSelectAll": {
+    "message": "वर्तमान फ़िल्टर से मेल खाने वाली सभी छवियाँ चुनें"
+  },
+  "tooltipDeselectAll": {
+    "message": "फ़िल्टर की छवियों का चयन साफ़ करें"
+  },
+  "selectForDownload": {
+    "message": "बैच डाउनलोड में शामिल करें"
+  },
+  "statusScanning": {
+    "message": "स्कैन हो रहा है…"
+  },
+  "errNoTab": {
+    "message": "सक्रिय टैब नहीं मिल सका।"
+  },
+  "errRestrictedPage": {
+    "message": "यह पृष्ठ एक्सटेंशन का समर्थन नहीं करता (आंतरिक ब्राउज़र पृष्ठ)।"
+  },
+  "errInject": {
+    "message": "स्क्रिप्ट इंजेक्ट नहीं हो सकी: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "स्कैन विफल"
+  },
+  "statusNoImages": {
+    "message": "कोई डाउनलोड योग्य छवि नहीं मिली।"
+  },
+  "statusCount": {
+    "message": "कुल $1$ छवियां, $2$ फ़िल्टर से मेल खाती हैं",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "डाउनलोड"
+  },
+  "queued": {
+    "message": "कतार में"
+  },
+  "failed": {
+    "message": "विफल"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "चौड़ाई · $1$–$2$ px (अधिकतम $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "ऊँचाई · $1$–$2$ px (अधिकतम $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "चौड़ाई सीमा"
+  },
+  "ariaHeightRange": {
+    "message": "ऊँचाई सीमा"
+  },
+  "titleMinWidth": {
+    "message": "न्यूनतम चौड़ाई"
+  },
+  "titleMaxWidth": {
+    "message": "अधिकतम चौड़ाई"
+  },
+  "titleMinHeight": {
+    "message": "न्यूनतम ऊँचाई"
+  },
+  "titleMaxHeight": {
+    "message": "अधिकतम ऊँचाई"
+  },
+  "filterHint": {
+    "message": "चौड़ाई या ऊँचाई पूर्ण सीमा में न होने पर, उस आयाम के बिना छवियाँ निकाल दी जाती हैं। पूरी तरह अज्ञात आकार (0×0) केवल तब दिखता है जब दोनों स्लाइडर पूर्ण सीमा पर हों।"
+  },
+  "dimUnknown": {
+    "message": "आकार अज्ञात"
+  },
+  "sourceImg": {
+    "message": "छवि"
+  },
+  "sourcePicture": {
+    "message": "picture तत्व"
+  },
+  "sourceVideoPoster": {
+    "message": "वीडियो पोस्टर"
+  },
+  "sourceFavicon": {
+    "message": "फ़ेविकॉन"
+  },
+  "sourceInlineStyle": {
+    "message": "इनलाइन शैली"
+  },
+  "sourceCssBackground": {
+    "message": "CSS पृष्ठभूमि"
+  },
+  "sourceUnknown": {
+    "message": "अन्य"
+  },
+  "copyLink": {
+    "message": "लिंक कॉपी करें"
+  },
+  "linkCopied": {
+    "message": "कॉपी हो गया"
+  },
+  "copyFailed": {
+    "message": "कॉपी विफल"
+  },
+  "tooltipCopyLink": {
+    "message": "छवि URL क्लिपबोर्ड पर कॉपी करें"
+  }
+}

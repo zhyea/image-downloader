@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "اعثر على الصور في الصفحات، صفّ بحسب الحجم، معاينات صغيرة، انسخ الروابط وحمّل دفعة واحدة. الإعدادات تضبط عرض النافذة والأعمدة."
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — الإعدادات"
+  },
+  "settingsLead": {
+    "message": "اضبط مظهر النافذة المنبثقة. تُحفظ التغييرات تلقائياً."
+  },
+  "settingsLabelPopupWidth": {
+    "message": "عرض النافذة المنبثقة"
+  },
+  "settingsHintPopupWidth": {
+    "message": "بين 320 و800 بكسل."
+  },
+  "settingsValuePx": {
+    "message": "$1$ بكسل",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "أعمدة شبكة الصور المصغرة"
+  },
+  "settingsHintGridColumns": {
+    "message": "من 1 إلى 6 أعمدة."
+  },
+  "settingsValueColumns": {
+    "message": "$1$ أعمدة",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "إذا كانت النافذة مفتوحة تُطبّق التغييرات فوراً، وإلا عند الفتح التالي."
+  },
+  "tooltipSettings": {
+    "message": "فتح الإعدادات"
+  },
+  "extActionTitle": {
+    "message": "اعثر على صور الصفحة وحمّلها"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "تحديث"
+  },
+  "downloadSelected": {
+    "message": "تنزيل المحدد"
+  },
+  "tooltipRefresh": {
+    "message": "إعادة مسح الصفحة"
+  },
+  "tooltipDownloadSelected": {
+    "message": "تنزيل الصور المحددة في المرشح الحالي"
+  },
+  "selectAll": {
+    "message": "تحديد الكل"
+  },
+  "deselectAll": {
+    "message": "إلغاء تحديد الكل"
+  },
+  "tooltipSelectAll": {
+    "message": "تحديد كل الصور المطابقة للمرشح الحالي"
+  },
+  "tooltipDeselectAll": {
+    "message": "مسح التحديد عن الصور المصفاة"
+  },
+  "selectForDownload": {
+    "message": "تضمين في التنزيل الدفعي"
+  },
+  "statusScanning": {
+    "message": "جارٍ المسح…"
+  },
+  "errNoTab": {
+    "message": "تعذّر الحصول على التبويب النشط."
+  },
+  "errRestrictedPage": {
+    "message": "لا تدعم هذه الصفحة الإضافات (صفحة داخلية للمتصفح)."
+  },
+  "errInject": {
+    "message": "تعذّر حقن السكربت: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "فشل المسح"
+  },
+  "statusNoImages": {
+    "message": "لم يُعثر على صور قابلة للتنزيل."
+  },
+  "statusCount": {
+    "message": "إجمالي $1$ صورة، $2$ تطابق المرشّح",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "تنزيل"
+  },
+  "queued": {
+    "message": "أُضيفت"
+  },
+  "failed": {
+    "message": "فشل"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "العرض · $1$–$2$ بكسل (الحد $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "الارتفاع · $1$–$2$ بكسل (الحد $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "نطاق العرض"
+  },
+  "ariaHeightRange": {
+    "message": "نطاق الارتفاع"
+  },
+  "titleMinWidth": {
+    "message": "الحد الأدنى للعرض"
+  },
+  "titleMaxWidth": {
+    "message": "الحد الأقصى للعرض"
+  },
+  "titleMinHeight": {
+    "message": "الحد الأدنى للارتفاع"
+  },
+  "titleMaxHeight": {
+    "message": "الحد الأقصى للارتفاع"
+  },
+  "filterHint": {
+    "message": "إذا لم يكن العرض أو الارتفاع بالمدى الكامل، تُستبعد الصور التي تفتقد ذلك البعد. الحجم المجهول بالكامل (0×0) يظهر فقط عندما يغطي كلا المنزلقين المدى الكامل."
+  },
+  "dimUnknown": {
+    "message": "الحجم غير معروف"
+  },
+  "sourceImg": {
+    "message": "صورة"
+  },
+  "sourcePicture": {
+    "message": "عنصر picture"
+  },
+  "sourceVideoPoster": {
+    "message": "ملصق فيديو"
+  },
+  "sourceFavicon": {
+    "message": "أيقونة الموقع"
+  },
+  "sourceInlineStyle": {
+    "message": "نمط مضمّن"
+  },
+  "sourceCssBackground": {
+    "message": "خلفية CSS"
+  },
+  "sourceUnknown": {
+    "message": "أخرى"
+  },
+  "copyLink": {
+    "message": "نسخ الرابط"
+  },
+  "linkCopied": {
+    "message": "نُسخ"
+  },
+  "copyFailed": {
+    "message": "فشل النسخ"
+  },
+  "tooltipCopyLink": {
+    "message": "نسخ عنوان الصورة إلى الحافظة"
+  }
+}

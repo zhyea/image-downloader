@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "在网页中查找图片，按尺寸筛选，预览缩略图，复制链接并批量下载。可在设置中调整弹窗宽度与缩略图网格列数。"
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — 设置"
+  },
+  "settingsLead": {
+    "message": "调整弹窗外观。修改会自动保存。"
+  },
+  "settingsLabelPopupWidth": {
+    "message": "弹窗宽度"
+  },
+  "settingsHintPopupWidth": {
+    "message": "范围 320～800 像素。"
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "缩略图网格列数"
+  },
+  "settingsHintGridColumns": {
+    "message": "1 至 6 列。"
+  },
+  "settingsValueColumns": {
+    "message": "$1$ 列",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "若弹窗已打开，更改设置后会立即更新；否则在下次打开弹窗时生效。"
+  },
+  "tooltipSettings": {
+    "message": "打开设置"
+  },
+  "extActionTitle": {
+    "message": "识别并下载页面图片"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "刷新"
+  },
+  "downloadSelected": {
+    "message": "下载已选"
+  },
+  "tooltipRefresh": {
+    "message": "重新扫描"
+  },
+  "tooltipDownloadSelected": {
+    "message": "下载当前筛选结果中已勾选的图片"
+  },
+  "selectAll": {
+    "message": "全选"
+  },
+  "deselectAll": {
+    "message": "取消全选"
+  },
+  "tooltipSelectAll": {
+    "message": "全选当前筛选结果中的图片"
+  },
+  "tooltipDeselectAll": {
+    "message": "取消当前筛选结果中的全部勾选"
+  },
+  "selectForDownload": {
+    "message": "参与批量下载"
+  },
+  "statusScanning": {
+    "message": "正在扫描…"
+  },
+  "errNoTab": {
+    "message": "无法获取当前标签页。"
+  },
+  "errRestrictedPage": {
+    "message": "此页面不支持扩展（浏览器内部页）。"
+  },
+  "errInject": {
+    "message": "无法注入脚本：$1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "扫描失败"
+  },
+  "statusNoImages": {
+    "message": "未找到可下载的图片。"
+  },
+  "statusCount": {
+    "message": "共 $1$ 张图片，符合筛选 $2$ 张",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "下载"
+  },
+  "queued": {
+    "message": "已添加"
+  },
+  "failed": {
+    "message": "失败"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "宽度 · $1$–$2$ px（上限 $3$）",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "高度 · $1$–$2$ px（上限 $3$）",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "宽度范围"
+  },
+  "ariaHeightRange": {
+    "message": "高度范围"
+  },
+  "titleMinWidth": {
+    "message": "最小宽度"
+  },
+  "titleMaxWidth": {
+    "message": "最大宽度"
+  },
+  "titleMinHeight": {
+    "message": "最小高度"
+  },
+  "titleMaxHeight": {
+    "message": "最大高度"
+  },
+  "filterHint": {
+    "message": "宽度或高度任一区间小于全范围时，会排除该边尺寸未知的图片；仅当宽高均为全范围时，仍显示完全未知尺寸（0×0）的图片。"
+  },
+  "dimUnknown": {
+    "message": "尺寸未知"
+  },
+  "sourceImg": {
+    "message": "图片"
+  },
+  "sourcePicture": {
+    "message": "响应式图片"
+  },
+  "sourceVideoPoster": {
+    "message": "视频封面"
+  },
+  "sourceFavicon": {
+    "message": "网站图标"
+  },
+  "sourceInlineStyle": {
+    "message": "行内样式"
+  },
+  "sourceCssBackground": {
+    "message": "CSS 背景"
+  },
+  "sourceUnknown": {
+    "message": "其他"
+  },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "linkCopied": {
+    "message": "已复制"
+  },
+  "copyFailed": {
+    "message": "复制失败"
+  },
+  "tooltipCopyLink": {
+    "message": "复制图片地址到剪贴板"
+  }
+}

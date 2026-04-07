@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "Encontre imagens nas páginas, filtre por tamanho, veja miniaturas, copie links e baixe em lote. Ajustes de largura e colunas."
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — Configurações"
+  },
+  "settingsLead": {
+    "message": "Ajuste a aparência do pop-up. As alterações são salvas automaticamente."
+  },
+  "settingsLabelPopupWidth": {
+    "message": "Largura do pop-up"
+  },
+  "settingsHintPopupWidth": {
+    "message": "Entre 320 e 800 pixels."
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "Colunas da grade de miniaturas"
+  },
+  "settingsHintGridColumns": {
+    "message": "De 1 a 6 colunas."
+  },
+  "settingsValueColumns": {
+    "message": "$1$ colunas",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "Se o pop-up estiver aberto, as mudanças entram na hora; caso contrário, na próxima vez que você abrir."
+  },
+  "tooltipSettings": {
+    "message": "Abrir configurações"
+  },
+  "extActionTitle": {
+    "message": "Encontrar e baixar imagens da página"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "Atualizar"
+  },
+  "downloadSelected": {
+    "message": "Baixar selecionados"
+  },
+  "tooltipRefresh": {
+    "message": "Escanear novamente"
+  },
+  "tooltipDownloadSelected": {
+    "message": "Baixar imagens marcadas no filtro atual"
+  },
+  "selectAll": {
+    "message": "Selecionar tudo"
+  },
+  "deselectAll": {
+    "message": "Desmarcar tudo"
+  },
+  "tooltipSelectAll": {
+    "message": "Selecionar todas as imagens do filtro atual"
+  },
+  "tooltipDeselectAll": {
+    "message": "Limpar a seleção das imagens filtradas"
+  },
+  "selectForDownload": {
+    "message": "Incluir no download em lote"
+  },
+  "statusScanning": {
+    "message": "Escaneando…"
+  },
+  "errNoTab": {
+    "message": "Não foi possível obter a aba ativa."
+  },
+  "errRestrictedPage": {
+    "message": "Esta página não suporta extensões (página interna do navegador)."
+  },
+  "errInject": {
+    "message": "Não foi possível injetar o script: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "Falha ao escanear"
+  },
+  "statusNoImages": {
+    "message": "Nenhuma imagem para baixar encontrada."
+  },
+  "statusCount": {
+    "message": "Total de $1$ imagens, $2$ correspondem ao filtro",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "Baixar"
+  },
+  "queued": {
+    "message": "Adicionado"
+  },
+  "failed": {
+    "message": "Falha"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "Largura · $1$–$2$ px (máx. $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "Altura · $1$–$2$ px (máx. $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "Intervalo de largura"
+  },
+  "ariaHeightRange": {
+    "message": "Intervalo de altura"
+  },
+  "titleMinWidth": {
+    "message": "Largura mínima"
+  },
+  "titleMaxWidth": {
+    "message": "Largura máxima"
+  },
+  "titleMinHeight": {
+    "message": "Altura mínima"
+  },
+  "titleMaxHeight": {
+    "message": "Altura máxima"
+  },
+  "filterHint": {
+    "message": "Se a largura ou a altura não estiverem no intervalo completo, imagens sem essa dimensão são excluídas. Tamanho totalmente desconhecido (0×0) só aparece quando ambos os controles cobrem o intervalo completo."
+  },
+  "dimUnknown": {
+    "message": "Tamanho desconhecido"
+  },
+  "sourceImg": {
+    "message": "Imagem"
+  },
+  "sourcePicture": {
+    "message": "Elemento picture"
+  },
+  "sourceVideoPoster": {
+    "message": "Pôster de vídeo"
+  },
+  "sourceFavicon": {
+    "message": "Favicon"
+  },
+  "sourceInlineStyle": {
+    "message": "Estilo em linha"
+  },
+  "sourceCssBackground": {
+    "message": "Fundo CSS"
+  },
+  "sourceUnknown": {
+    "message": "Outro"
+  },
+  "copyLink": {
+    "message": "Copiar link"
+  },
+  "linkCopied": {
+    "message": "Copiado"
+  },
+  "copyFailed": {
+    "message": "Falha ao copiar"
+  },
+  "tooltipCopyLink": {
+    "message": "Copiar URL da imagem"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "ページ内の画像を検索し、サイズで絞り込み、サムネイル表示、リンクをコピー、一括ダウンロード。設定でポップアップ幅と列数を調整。"
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — 設定"
+  },
+  "settingsLead": {
+    "message": "ポップアップの見た目を調整します。変更は自動で保存されます。"
+  },
+  "settingsLabelPopupWidth": {
+    "message": "ポップアップの幅"
+  },
+  "settingsHintPopupWidth": {
+    "message": "320～800 ピクセル。"
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "サムネイルの列数"
+  },
+  "settingsHintGridColumns": {
+    "message": "1～6 列。"
+  },
+  "settingsValueColumns": {
+    "message": "$1$ 列",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "ポップアップを開いたままなら変更がすぐ反映されます。閉じている場合は次回開いたときに反映されます。"
+  },
+  "tooltipSettings": {
+    "message": "設定を開く"
+  },
+  "extActionTitle": {
+    "message": "ページの画像を探してダウンロード"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "更新"
+  },
+  "downloadSelected": {
+    "message": "選択したものをダウンロード"
+  },
+  "tooltipRefresh": {
+    "message": "再スキャン"
+  },
+  "tooltipDownloadSelected": {
+    "message": "現在のフィルターでチェックした画像をダウンロード"
+  },
+  "selectAll": {
+    "message": "すべて選択"
+  },
+  "deselectAll": {
+    "message": "選択解除"
+  },
+  "tooltipSelectAll": {
+    "message": "現在のフィルターに合う画像をすべて選択"
+  },
+  "tooltipDeselectAll": {
+    "message": "フィルター結果の選択をすべて解除"
+  },
+  "selectForDownload": {
+    "message": "一括ダウンロードに含める"
+  },
+  "statusScanning": {
+    "message": "スキャン中…"
+  },
+  "errNoTab": {
+    "message": "アクティブなタブを取得できませんでした。"
+  },
+  "errRestrictedPage": {
+    "message": "このページは拡張機能に対応していません（ブラウザ内部ページ）。"
+  },
+  "errInject": {
+    "message": "スクリプトを注入できませんでした: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "スキャンに失敗しました"
+  },
+  "statusNoImages": {
+    "message": "ダウンロード可能な画像が見つかりませんでした。"
+  },
+  "statusCount": {
+    "message": "合計 $1$ 枚、フィルター一致 $2$ 枚",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "ダウンロード"
+  },
+  "queued": {
+    "message": "追加済み"
+  },
+  "failed": {
+    "message": "失敗"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "幅 · $1$–$2$ px（上限 $3$）",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "高さ · $1$–$2$ px（上限 $3$）",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "幅の範囲"
+  },
+  "ariaHeightRange": {
+    "message": "高さの範囲"
+  },
+  "titleMinWidth": {
+    "message": "最小幅"
+  },
+  "titleMaxWidth": {
+    "message": "最大幅"
+  },
+  "titleMinHeight": {
+    "message": "最小高さ"
+  },
+  "titleMaxHeight": {
+    "message": "最大高さ"
+  },
+  "filterHint": {
+    "message": "幅または高さが全範囲でないとき、その辺が不明な画像は除外されます。完全に不明なサイズ（0×0）は、両方のスライダーが全範囲のときだけ表示されます。"
+  },
+  "dimUnknown": {
+    "message": "サイズ不明"
+  },
+  "sourceImg": {
+    "message": "画像"
+  },
+  "sourcePicture": {
+    "message": "picture要素"
+  },
+  "sourceVideoPoster": {
+    "message": "動画ポスター"
+  },
+  "sourceFavicon": {
+    "message": "ファビコン"
+  },
+  "sourceInlineStyle": {
+    "message": "インラインスタイル"
+  },
+  "sourceCssBackground": {
+    "message": "CSS 背景"
+  },
+  "sourceUnknown": {
+    "message": "その他"
+  },
+  "copyLink": {
+    "message": "リンクをコピー"
+  },
+  "linkCopied": {
+    "message": "コピーしました"
+  },
+  "copyFailed": {
+    "message": "コピーに失敗"
+  },
+  "tooltipCopyLink": {
+    "message": "画像の URL をクリップボードにコピー"
+  }
+}

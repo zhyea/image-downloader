@@ -1,0 +1,23 @@
+{
+  "name": "page-image-download-ext",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "icons": "python3 scripts/make-extension-icons.py",
+    "dev": "vite build --watch",
+    "build": "python3 scripts/make-extension-icons.py && vite build && node scripts/build-extension-scripts.mjs",
+    "check:locales": "node scripts/validate-locales.mjs",
+    "firefox": "npm run build && web-ext run -s dist"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "esbuild": "^0.24.2",
+    "vite": "^6.0.3",
+    "web-ext": "^8.3.0"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "Находит изображения на страницах, фильтрует по размеру, показывает превью, копирует ссылки и пакетно скачивает. В настройках — ширина окна и столбцы."
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — Настройки"
+  },
+  "settingsLead": {
+    "message": "Настройте внешний вид всплывающего окна. Изменения сохраняются автоматически."
+  },
+  "settingsLabelPopupWidth": {
+    "message": "Ширина всплывающего окна"
+  },
+  "settingsHintPopupWidth": {
+    "message": "От 320 до 800 пикселей."
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "Столбцы сетки миниатюр"
+  },
+  "settingsHintGridColumns": {
+    "message": "От 1 до 6 столбцов."
+  },
+  "settingsValueColumns": {
+    "message": "$1$ столбцов",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "Если всплывающее окно открыто, изменения применяются сразу; иначе при следующем открытии."
+  },
+  "tooltipSettings": {
+    "message": "Открыть настройки"
+  },
+  "extActionTitle": {
+    "message": "Найти и скачать изображения страницы"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "Обновить"
+  },
+  "downloadSelected": {
+    "message": "Скачать выбранные"
+  },
+  "tooltipRefresh": {
+    "message": "Повторное сканирование"
+  },
+  "tooltipDownloadSelected": {
+    "message": "Скачать отмеченные изображения по текущему фильтру"
+  },
+  "selectAll": {
+    "message": "Выбрать все"
+  },
+  "deselectAll": {
+    "message": "Снять выбор"
+  },
+  "tooltipSelectAll": {
+    "message": "Выбрать все изображения по текущему фильтру"
+  },
+  "tooltipDeselectAll": {
+    "message": "Снять выбор со всех изображений в фильтре"
+  },
+  "selectForDownload": {
+    "message": "Включить в пакетную загрузку"
+  },
+  "statusScanning": {
+    "message": "Сканирование…"
+  },
+  "errNoTab": {
+    "message": "Не удалось получить активную вкладку."
+  },
+  "errRestrictedPage": {
+    "message": "Эта страница не поддерживает расширения (внутренняя страница браузера)."
+  },
+  "errInject": {
+    "message": "Не удалось внедрить скрипт: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "Ошибка сканирования"
+  },
+  "statusNoImages": {
+    "message": "Подходящих изображений не найдено."
+  },
+  "statusCount": {
+    "message": "Всего $1$ изображений, $2$ подходят под фильтр",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "Скачать"
+  },
+  "queued": {
+    "message": "Добавлено"
+  },
+  "failed": {
+    "message": "Ошибка"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "Ширина · $1$–$2$ px (макс. $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "Высота · $1$–$2$ px (макс. $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "Диапазон ширины"
+  },
+  "ariaHeightRange": {
+    "message": "Диапазон высоты"
+  },
+  "titleMinWidth": {
+    "message": "Минимальная ширина"
+  },
+  "titleMaxWidth": {
+    "message": "Максимальная ширина"
+  },
+  "titleMinHeight": {
+    "message": "Минимальная высота"
+  },
+  "titleMaxHeight": {
+    "message": "Максимальная высота"
+  },
+  "filterHint": {
+    "message": "Если ширина или высота не на полном диапазоне, изображения без этого измерения исключаются. Полностью неизвестный размер (0×0) показывается только когда оба ползунка на полном диапазоне."
+  },
+  "dimUnknown": {
+    "message": "Размер неизвестен"
+  },
+  "sourceImg": {
+    "message": "Изображение"
+  },
+  "sourcePicture": {
+    "message": "Тег picture"
+  },
+  "sourceVideoPoster": {
+    "message": "Постер видео"
+  },
+  "sourceFavicon": {
+    "message": "Фавикон"
+  },
+  "sourceInlineStyle": {
+    "message": "Встроенный стиль"
+  },
+  "sourceCssBackground": {
+    "message": "Фон CSS"
+  },
+  "sourceUnknown": {
+    "message": "Другое"
+  },
+  "copyLink": {
+    "message": "Копировать ссылку"
+  },
+  "linkCopied": {
+    "message": "Скопировано"
+  },
+  "copyFailed": {
+    "message": "Ошибка копирования"
+  },
+  "tooltipCopyLink": {
+    "message": "Копировать URL изображения"
+  }
+}

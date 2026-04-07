@@ -1,0 +1,226 @@
+{
+  "extName": {
+    "message": "Image Downloader"
+  },
+  "extDescription": {
+    "message": "Find images on pages, filter by size, preview thumbnails, copy links, batch download. Settings adjust popup width and grid columns."
+  },
+  "settingsTitle": {
+    "message": "Image Downloader — Settings"
+  },
+  "settingsLead": {
+    "message": "Adjust how the popup looks. Changes are saved automatically."
+  },
+  "settingsLabelPopupWidth": {
+    "message": "Popup width"
+  },
+  "settingsHintPopupWidth": {
+    "message": "Between 320 and 800 pixels."
+  },
+  "settingsValuePx": {
+    "message": "$1$ px",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "456"
+      }
+    }
+  },
+  "settingsLabelGridColumns": {
+    "message": "Thumbnail grid columns"
+  },
+  "settingsHintGridColumns": {
+    "message": "From 1 to 6 columns."
+  },
+  "settingsValueColumns": {
+    "message": "$1$ columns",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "settingsFootnote": {
+    "message": "If the popup is already open, it updates when you change settings. Otherwise the new size applies the next time you open it."
+  },
+  "tooltipSettings": {
+    "message": "Open settings"
+  },
+  "extActionTitle": {
+    "message": "Find and download page images"
+  },
+  "popupTitle": {
+    "message": "Image Downloader"
+  },
+  "headerTitle": {
+    "message": "Image Downloader"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "downloadSelected": {
+    "message": "Download selected"
+  },
+  "tooltipRefresh": {
+    "message": "Rescan the page"
+  },
+  "tooltipDownloadSelected": {
+    "message": "Download checked images in the current filter"
+  },
+  "selectAll": {
+    "message": "Select all"
+  },
+  "deselectAll": {
+    "message": "Deselect all"
+  },
+  "tooltipSelectAll": {
+    "message": "Select all images matching the current filter"
+  },
+  "tooltipDeselectAll": {
+    "message": "Clear selection for filtered images"
+  },
+  "selectForDownload": {
+    "message": "Include in batch download"
+  },
+  "statusScanning": {
+    "message": "Scanning…"
+  },
+  "errNoTab": {
+    "message": "Could not get the active tab."
+  },
+  "errRestrictedPage": {
+    "message": "This page does not support extensions (internal browser page)."
+  },
+  "errInject": {
+    "message": "Could not inject script: $1$",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "Error"
+      }
+    }
+  },
+  "errScanFailed": {
+    "message": "Scan failed"
+  },
+  "statusNoImages": {
+    "message": "No downloadable images found."
+  },
+  "statusCount": {
+    "message": "Total $1$ images, $2$ match filters",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "10"
+      },
+      "2": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "download": {
+    "message": "Download"
+  },
+  "queued": {
+    "message": "Queued"
+  },
+  "failed": {
+    "message": "Failed"
+  },
+  "ellipsis": {
+    "message": "…"
+  },
+  "filterWidth": {
+    "message": "Width · $1$–$2$ px (max $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "filterHeight": {
+    "message": "Height · $1$–$2$ px (max $3$)",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0"
+      },
+      "2": {
+        "content": "$2",
+        "example": "1920"
+      },
+      "3": {
+        "content": "$3",
+        "example": "4096"
+      }
+    }
+  },
+  "ariaWidthRange": {
+    "message": "Width range"
+  },
+  "ariaHeightRange": {
+    "message": "Height range"
+  },
+  "titleMinWidth": {
+    "message": "Minimum width"
+  },
+  "titleMaxWidth": {
+    "message": "Maximum width"
+  },
+  "titleMinHeight": {
+    "message": "Minimum height"
+  },
+  "titleMaxHeight": {
+    "message": "Maximum height"
+  },
+  "filterHint": {
+    "message": "If width or height is not at full range, images missing that dimension are excluded. Fully unknown size (0×0) appears only when both sliders span the full range."
+  },
+  "dimUnknown": {
+    "message": "Size unknown"
+  },
+  "sourceImg": {
+    "message": "Image"
+  },
+  "sourcePicture": {
+    "message": "Picture"
+  },
+  "sourceVideoPoster": {
+    "message": "Video poster"
+  },
+  "sourceFavicon": {
+    "message": "Favicon"
+  },
+  "sourceInlineStyle": {
+    "message": "Inline style"
+  },
+  "sourceCssBackground": {
+    "message": "CSS background"
+  },
+  "sourceUnknown": {
+    "message": "Other"
+  },
+  "copyLink": {
+    "message": "Copy link"
+  },
+  "linkCopied": {
+    "message": "Copied"
+  },
+  "copyFailed": {
+    "message": "Copy failed"
+  },
+  "tooltipCopyLink": {
+    "message": "Copy image URL to clipboard"
+  }
+}
