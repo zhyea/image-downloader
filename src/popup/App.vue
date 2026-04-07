@@ -43,7 +43,7 @@ async function applyUserSettings() {
 }
 
 function openSettingsPage() {
-  browser.tabs.create({ url: browser.runtime.getURL("settings.html") });
+  browser.runtime.openOptionsPage();
 }
 
 const sliderMaxW = ref(4096);

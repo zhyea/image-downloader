@@ -1,0 +1,320 @@
+================================================================================
+Chrome 网上应用店 — 产品说明（与扩展 public/_locales 语言一致）
+用途：提交审核时复制「详细说明」；每节含「简短说明」≤132 字符（商店摘要字段上限）。
+================================================================================
+
+--------------------------------------------------------------------------------
+en — English
+--------------------------------------------------------------------------------
+SHORT (≤132 chars):
+Find images on any page, filter by size, preview thumbnails, copy links, and batch download. Customize layout in Settings.
+
+DETAILED DESCRIPTION:
+Image Downloader helps you find every image on the current webpage, narrow results by size, preview them in a grid, and save or copy what you need—without leaving the page.
+
+What you can do
+• Scan the active tab for images from <img>, <picture>, video posters, favicons, inline styles, and CSS background images.
+• Filter by minimum and maximum width and height so you only see images that match your criteria.
+• Browse thumbnails in a responsive grid; change popup width and column count in Settings.
+• Select images individually, or use Select all / Deselect all for the filtered list.
+• Copy any image URL to the clipboard, or batch-download the images you selected.
+• Refresh to rescan after the page loads new content.
+
+Privacy
+The extension works in your browser to list and download image URLs you already see on pages. It does not collect browsing history or sell data. Network access is used only to fetch image data when you download or when dimensions need to be read for filtering.
+
+Why permissions
+• Active tab & scripting: scan the open page for image sources.
+• Downloads: save files you choose.
+• Storage: remember your filter and layout preferences.
+• Tabs: associate actions with the correct page.
+
+--------------------------------------------------------------------------------
+zh_CN — 简体中文
+--------------------------------------------------------------------------------
+SHORT (≤132 字):
+在任意网页查找图片，按宽高筛选，缩略图预览，复制链接并批量下载。可在设置中调整弹窗宽度与网格列数。
+
+DETAILED DESCRIPTION:
+Image Downloader 帮助你在当前网页中发现所有可下载图片，按尺寸筛选，在网格中预览，并一键保存或复制链接，无需离开页面。
+
+主要功能
+• 扫描当前标签页中的图片，来源包括 <img>、<picture>、视频海报、favicon、内联样式与 CSS 背景图等。
+• 通过最小/最大宽度与高度筛选，只显示符合尺寸需求的图片。
+• 缩略图网格浏览；在设置中可调整弹窗宽度与列数。
+• 逐张勾选，或对筛选结果使用「全选 / 取消全选」。
+• 复制图片地址到剪贴板，或对已选图片批量下载。
+• 页面动态加载新内容后可刷新重新扫描。
+
+隐私说明
+扩展仅在浏览器内列出并下载您已在网页上可见的图片地址，不收集浏览记录或出售数据。网络访问仅用于您发起下载时获取图片数据，或在需要读取尺寸以支持筛选时访问相应地址。
+
+权限说明
+• 活动标签页与脚本：扫描当前页面中的图片来源。
+• 下载：保存您选择的文件。
+• 存储：保存筛选与界面布局偏好。
+• 标签页：将操作与对应页面正确关联。
+
+--------------------------------------------------------------------------------
+zh_TW — 繁體中文
+--------------------------------------------------------------------------------
+SHORT (≤132 字):
+在任意網頁尋找圖片，依寬高篩選、預覽縮圖、複製連結並批次下載。可於設定調整彈窗寬度與網格列數。
+
+DETAILED DESCRIPTION:
+Image Downloader 協助你在目前網頁上找出所有可下載圖片，依尺寸篩選、以網格預覽，並可儲存或複製連結，無需離開頁面。
+
+主要功能
+• 掃描目前分頁中的圖片，來源包含 <img>、<picture>、影片海報、favicon、行內樣式與 CSS 背景圖等。
+• 以最小／最大寬度與高度篩選，只顯示符合尺寸需求的圖片。
+• 縮圖網格瀏覽；於設定中可調整彈窗寬度與欄數。
+• 逐張勾選，或對篩選結果使用「全選／取消全選」。
+• 複製圖片網址到剪貼簿，或批次下載已選圖片。
+• 頁面動態載入新內容後可重新整理以再次掃描。
+
+隱私說明
+擴充功能僅在瀏覽器內列出並下載您已在網頁上可見的圖片位址，不蒐集瀏覽紀錄或販售資料。網路存取僅在您下載時取得圖片資料，或需讀取尺寸以支援篩選時存取相應位址。
+
+權限說明
+• 作用中分頁與指令碼：掃描目前頁面中的圖片來源。
+• 下載：儲存您選擇的檔案。
+• 儲存空間：記住篩選與版面偏好。
+• 分頁：將操作與對應頁面正確關聯。
+
+--------------------------------------------------------------------------------
+ja — 日本語
+--------------------------------------------------------------------------------
+SHORT (≤132 文字):
+ページ内の画像を検索し、サイズで絞り込み、サムネイルで確認。リンクをコピーして一括ダウンロード。設定でポップアップ幅と列数を調整。
+
+DETAILED DESCRIPTION:
+Image Downloader は、表示中のページに含まれる画像を一覧し、サイズで絞り込み、グリッドでプレビューし、保存や URL コピーができる拡張機能です。
+
+主な機能
+• 現在のタブから <img>、<picture>、動画ポスター、favicon、インラインスタイル、CSS 背景画像などの画像を検出します。
+• 幅・高さの最小／最大でフィルターし、必要なサイズだけを表示できます。
+• サムネイルをグリッド表示。設定でポップアップ幅と列数を変更できます。
+• 個別に選択するか、フィルター結果に対して「すべて選択／選択解除」が使えます。
+• 画像 URL をクリップボードにコピー、または選択した画像を一括ダウンロードできます。
+• ページ更新後は再スキャン用に更新できます。
+
+プライバシー
+拡張機能はブラウザ内で、ページ上で取得可能な画像 URL の列挙とダウンロードに使います。閲覧履歴の収集やデータ販売は行いません。ネットワークは、ダウンロード時の画像取得や、フィルター用に寸法を読み取る場合にのみ利用します。
+
+権限について
+• アクティブなタブとスクリプト：ページ内の画像を検出するため。
+• ダウンロード：ユーザーが選んだファイルを保存するため。
+• ストレージ：フィルターと表示設定を保存するため。
+• タブ：操作を正しいページに関連付けるため。
+
+--------------------------------------------------------------------------------
+ko — 한국어
+--------------------------------------------------------------------------------
+SHORT (≤132자):
+페이지에서 이미지를 찾고 크기로 필터링하며 미리보기, 링크 복사, 일괄 다운로드. 설정에서 팝업 너비와 열 개수를 조정할 수 있습니다.
+
+DETAILED DESCRIPTION:
+Image Downloader는 현재 웹페이지에 있는 이미지를 찾아 크기로 걸러 보고, 그리드로 미리 본 뒤 저장하거나 URL을 복사할 수 있게 해 주는 확장 프로그램입니다.
+
+주요 기능
+• 현재 탭에서 <img>, <picture>, 동영상 포스터, 파비콘, 인라인 스타일, CSS 배경 이미지 등을 검색합니다.
+• 너비·높이 최소/최대로 필터링해 원하는 크기만 표시할 수 있습니다.
+• 썸네일 그리드로 확인하고, 설정에서 팝업 너비와 열 수를 바꿀 수 있습니다.
+• 개별 선택 또는 필터 결과에 대해 «모두 선택 / 선택 해제»를 사용할 수 있습니다.
+• 이미지 URL을 클립보드에 복사하거나 선택한 이미지를 일괄 다운로드할 수 있습니다.
+• 페이지가 바뀌면 새로고침으로 다시 검색할 수 있습니다.
+
+개인정보
+확장 프로그램은 브라우저 안에서 페이지에 표시 가능한 이미지 URL을 나열하고 다운로드하는 데 사용됩니다. 방문 기록을 수집하거나 데이터를 판매하지 않습니다. 네트워크는 다운로드 시 이미지를 가져오거나 필터를 위해 크기를 읽을 때만 사용됩니다.
+
+권한 안내
+• 활성 탭 및 스크립팅: 열린 페이지에서 이미지를 찾기 위해 필요합니다.
+• 다운로드: 사용자가 선택한 파일을 저장하기 위해 필요합니다.
+• 저장소: 필터 및 레이아웃 설정을 기억하기 위해 필요합니다.
+• 탭: 동작을 올바른 페이지와 연결하기 위해 필요합니다.
+
+--------------------------------------------------------------------------------
+de — Deutsch
+--------------------------------------------------------------------------------
+SHORT (≤132 Zeichen):
+Bilder auf jeder Seite finden, nach Größe filtern, Vorschaubilder, Links kopieren, Stapel-Download. Layout in den Einstellungen anpassen.
+
+DETAILED DESCRIPTION:
+Image Downloader hilft Ihnen, alle Bilder auf der aktuellen Webseite zu finden, nach Größe einzugrenzen, in einem Raster anzuzeigen und ausgewählte Dateien zu speichern oder URLs zu kopieren – ohne die Seite zu verlassen.
+
+Funktionen
+• Durchsucht die aktive Registerkarte nach Bildern aus <img>, <picture>, Video-Postern, Favicons, Inline-Styles und CSS-Hintergründen.
+• Filter nach Mindest- und Höchstbreite sowie -höhe, damit nur passende Bilder erscheinen.
+• Miniaturansichten im Raster; Pop-up-Breite und Spaltenanzahl in den Einstellungen anpassbar.
+• Einzelne Auswahl oder «Alle auswählen / Auswahl aufheben» für die gefilterte Liste.
+• Bild-URLs in die Zwischenablage kopieren oder ausgewählte Bilder stapelweise herunterladen.
+• Aktualisieren, um die Seite nach neu geladenen Inhalten erneut zu scannen.
+
+Datenschutz
+Die Erweiterung arbeitet lokal im Browser und listet bzw. lädt nur Bild-URLs, die auf der Seite vorkommen. Es werden keine Surfchroniken gesammelt und keine Daten verkauft. Netzwerkzugriffe dienen nur dem Herunterladen von Bildern oder dem Auslesen von Abmessungen für den Filter.
+
+Berechtigungen
+• Aktiver Tab & Skripting: Bildquellen auf der geöffneten Seite erkennen.
+• Downloads: von Ihnen gewählte Dateien speichern.
+• Speicher: Filter- und Layout-Einstellungen merken.
+• Tabs: Aktionen der richtigen Seite zuordnen.
+
+--------------------------------------------------------------------------------
+fr — Français
+--------------------------------------------------------------------------------
+SHORT (≤132 caractères):
+Trouvez les images d’une page, filtrez par taille, prévisualisez, copiez les liens et téléchargez en lot. Ajustez la fenêtre et la grille dans les paramètres.
+
+DETAILED DESCRIPTION:
+Image Downloader vous aide à repérer toutes les images de la page active, à les filtrer par dimensions, à les prévisualiser en grille et à les enregistrer ou à copier leurs URL, sans quitter la page.
+
+Fonctionnalités
+• Analyse l’onglet actif pour les images issues de <img>, <picture>, affiches vidéo, favicons, styles inline et arrière-plans CSS.
+• Filtres par largeur et hauteur min./max. pour n’afficher que les tailles souhaitées.
+• Vignettes en grille ; largeur de la fenêtre et nombre de colonnes réglables dans les paramètres.
+• Sélection individuelle ou « Tout sélectionner / Tout désélectionner » sur la liste filtrée.
+• Copie d’URL dans le presse-papiers ou téléchargement groupé des images sélectionnées.
+• Bouton d’actualisation pour relancer l’analyse après chargement dynamique.
+
+Confidentialité
+L’extension fonctionne dans le navigateur pour lister et télécharger les URL d’images visibles sur la page. Aucune collecte d’historique de navigation ni revente de données. Le réseau sert uniquement au téléchargement des images ou à la lecture des dimensions pour le filtre.
+
+Autorisations
+• Onglet actif et scripts : détecter les images sur la page ouverte.
+• Téléchargements : enregistrer les fichiers choisis.
+• Stockage : mémoriser filtres et préférences d’affichage.
+• Onglets : associer les actions à la bonne page.
+
+--------------------------------------------------------------------------------
+es — Español
+--------------------------------------------------------------------------------
+SHORT (≤132 caracteres):
+Encuentra imágenes en cualquier página, filtra por tamaño, previsualiza miniaturas, copia enlaces y descarga en lote. Ajusta el ancho y la cuadrícula en Ajustes.
+
+DETAILED DESCRIPTION:
+Image Downloader te ayuda a localizar todas las imágenes de la página actual, filtrarlas por tamaño, previsualizarlas en una cuadrícula y guardarlas o copiar sus URL sin salir de la página.
+
+Funciones
+• Analiza la pestaña activa en busca de imágenes de <img>, <picture>, pósters de vídeo, favicon, estilos en línea y fondos CSS.
+• Filtros por anchura y altura mín./máx. para mostrar solo los tamaños que necesitas.
+• Miniaturas en cuadrícula; anchura del popup y columnas configurables en Ajustes.
+• Selección individual o «Seleccionar todo / Deseleccionar todo» en la lista filtrada.
+• Copiar URL al portapapeles o descargar en lote las imágenes elegidas.
+• Botón Actualizar para volver a escanear tras cargas dinámicas.
+
+Privacidad
+La extensión trabaja en el navegador para listar y descargar URL de imágenes ya presentes en la página. No recopila historial de navegación ni vende datos. La red solo se usa para obtener imágenes al descargar o leer dimensiones para el filtro.
+
+Permisos
+• Pestaña activa y scripting: detectar imágenes en la página abierta.
+• Descargas: guardar los archivos que eliges.
+• Almacenamiento: recordar filtros y preferencias de diseño.
+• Pestañas: asociar acciones con la página correcta.
+
+--------------------------------------------------------------------------------
+pt_BR — Português (Brasil)
+--------------------------------------------------------------------------------
+SHORT (≤132 caracteres):
+Encontre imagens em qualquer página, filtre por tamanho, veja miniaturas, copie links e baixe em lote. Ajuste largura do popup e colunas em Configurações.
+
+DETAILED DESCRIPTION:
+O Image Downloader ajuda você a encontrar todas as imagens da página atual, filtrar por tamanho, pré-visualizá-las em grade e salvar ou copiar URLs sem sair da página.
+
+Recursos
+• Varre a aba ativa por imagens de <img>, <picture>, pôsteres de vídeo, favicons, estilos inline e fundos em CSS.
+• Filtros de largura e altura mín./máx. para mostrar apenas o que precisa.
+• Miniaturas em grade; largura do popup e número de colunas nas Configurações.
+• Seleção individual ou «Selecionar tudo / Desmarcar tudo» na lista filtrada.
+• Copiar URL para a área de transferência ou baixar em lote as imagens selecionadas.
+• Atualizar para escanear novamente após conteúdo dinâmico.
+
+Privacidade
+A extensão funciona no navegador para listar e baixar URLs de imagens já presentes na página. Não coleta histórico de navegação nem vende dados. A rede é usada apenas para baixar imagens ou ler dimensões para o filtro.
+
+Permissões
+• Aba ativa e scripts: detectar imagens na página aberta.
+• Downloads: salvar os arquivos escolhidos.
+• Armazenamento: lembrar filtros e preferências de layout.
+• Abas: associar ações à página correta.
+
+--------------------------------------------------------------------------------
+ru — Русский
+--------------------------------------------------------------------------------
+SHORT (≤132 символов):
+Находите картинки на странице, фильтруйте по размеру, смотрите превью, копируйте ссылки и скачивайте пакетом. Ширину окна и столбцы настраиваются.
+
+DETAILED DESCRIPTION:
+Image Downloader помогает находить все изображения на текущей странице, отфильтровывать их по размеру, просматривать в сетке и сохранять или копировать ссылки, не покидая страницу.
+
+Возможности
+• Сканирует активную вкладку: <img>, <picture>, постеры видео, favicon, inline-стили и фоны CSS.
+• Фильтры по минимальной и максимальной ширине и высоте.
+• Миниатюры в сетке; ширина всплывающего окна и число столбцов настраиваются в параметрах.
+• Поштучный выбор или «Выбрать всё / Снять выбор» для отфильтрованного списка.
+• Копирование URL в буфер или пакетное скачивание выбранных изображений.
+• Кнопка обновления для повторного сканирования после динамической подгрузки.
+
+Конфиденциальность
+Расширение работает в браузере и используется только для перечисления и загрузки URL изображений, доступных на странице. История посещений не собирается, данные не продаются. Сеть нужна лишь для загрузки изображений или чтения размеров для фильтра.
+
+Разрешения
+• Активная вкладка и скрипты: поиск изображений на открытой странице.
+• Загрузки: сохранение выбранных файлов.
+• Хранилище: сохранение настроек фильтра и макета.
+• Вкладки: привязка действий к нужной странице.
+
+--------------------------------------------------------------------------------
+ar — العربية
+--------------------------------------------------------------------------------
+SHORT (≤132 حرفًا):
+اعثر على الصور في أي صفحة، صفِّها حسب الحجم، معاينة مصغّرة، نسخ الروابط وتنزيل دفعة واحدة. اضبط عرض النافذة والأعمدة من الإعدادات.
+
+DETAILED DESCRIPTION:
+يساعدك Image Downloader على العثور على كل الصور في الصفحة الحالية، وتصفيتها حسب الأبعاد، ومعاينتها في شبكة، وحفظها أو نسخ روابطها دون مغادرة الصفحة.
+
+الميزات
+• يفحص التبويب النشط بحثًا عن صور من <img> و<picture> وملصقات الفيديو والأيقونات والأنماط المضمنة وخلفيات CSS.
+• تصفية بالحد الأدنى والأقصى للعرض والارتفاع لعرض الأحجام المطلوبة فقط.
+• عرض مصغّر في شبكة؛ يمكن تغيير عرض النافذة وعدد الأعمدة من الإعدادات.
+• اختيار فردي أو «تحديد الكل / إلغاء التحديد» للقائمة المصفاة.
+• نسخ عنوان URL إلى الحافظة أو تنزيل الصور المحددة دفعة واحدة.
+• زر تحديث لإعادة الفحص بعد تحميل محتوى ديناميكي.
+
+الخصوصية
+يعمل الامتداد داخل المتصفح لعرض وتنزيل عناوين الصور الظاهرة في الصفحة. لا يجمع سجل التصفح ولا يبيع البيانات. يُستخدم الاتصال بالشبكة فقط لتنزيل الصور أو قراءة الأبعاد عند الحاجة للتصفية.
+
+الأذونات
+• التبويب النشط والبرمجة: اكتشاف مصادر الصور في الصفحة المفتوحة.
+• التنزيلات: حفظ الملفات التي تختارها.
+• التخزين: تذكّر إعدادات التصفية والتخطيط.
+• التبويبات: ربط الإجراءات بالصفحة الصحيحة.
+
+--------------------------------------------------------------------------------
+hi — हिन्दी
+--------------------------------------------------------------------------------
+SHORT (≤132 अक्षर):
+किसी भी पेज पर छवियाँ खोजें, आकार से छाँटें, थंबनेल देखें, लिंक कॉपी करें और बैच में डाउनलोड करें। सेटिंग्स में पॉपअप चौड़ाई और कॉलम बदलें।
+
+DETAILED DESCRIPTION:
+Image Downloader वर्तमान वेबपेज पर मौजूद सभी छवियों को ढूँढने, आकार के अनुसार फ़िल्टर करने, ग्रिड में पूर्वावलोकन करने और लिंक सहेजने या कॉपी करने में मदद करता है—बिना पेज छोड़े।
+
+मुख्य सुविधाएँ
+• सक्रिय टैब में <img>, <picture>, वीडियो पोस्टर, फ़ेविकॉन, इनलाइन स्टाइल और CSS पृष्ठभूमि आदि से छवियाँ स्कैन करता है।
+• न्यूनतम/अधिकतम चौड़ाई और ऊँचाई से फ़िल्टर।
+• थंबनेल ग्रिड; सेटिंग्स में पॉपअप चौड़ाई और कॉलम समायोज्य।
+• एक-एक चुनें या फ़िल्टर सूची के लिए «सभी चुनें / सभी हटाएँ»।
+• URL क्लिपबोर्ड पर कॉप करें या चयनित छवियाँ बैच में डाउनलोड करें।
+• गतिशील सामग्री के बाद पुनः स्कैन के लिए रिफ़्रेश।
+
+गोपनीयता
+एक्सटेंशन ब्राउज़र में ही पेज पर दिखाई देने वाली छवि URL सूचीबद्ध और डाउनलोड करने के लिए है। ब्राउज़िंग इतिहास एकत्र नहीं किया जाता। नेटवर्क केवल डाउनलोड या फ़िल्टर हेतु आयाम पढ़ने के लिए उपयोग होता है।
+
+अनुमतियाँ
+• सक्रिय टैब व स्क्रिप्टिंग: खुले पेज पर छवियाँ ढूँढने के लिए।
+• डाउनलोड: आपकी चुनी फ़ाइलें सहेजने के लिए।
+• स्टोरेज: फ़िल्टर व लेआउट वरीयताएँ याद रखने के लिए।
+• टैब: क्रियाओं को सही पेज से जोड़ने के लिए।
+
+================================================================================
+（完）
+================================================================================
