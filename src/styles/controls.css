@@ -1,0 +1,27 @@
+.ext-btn {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #c9ced6;
+  background: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.ext-btn:hover:not(:disabled) {
+  background: #f0f2f5;
+}
+
+.ext-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ext-btn--primary {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
+}
+
+.ext-btn--primary:hover:not(:disabled) {
+  background: #1d4ed8;
+}

@@ -1,0 +1,23 @@
+/* Thin scrollbars (popup grid, page overflow, etc.) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c4c8d0 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c4c8d0;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
