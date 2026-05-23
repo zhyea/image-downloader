@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "复制图片地址到剪贴板"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "图片保存位置"
   }
 }

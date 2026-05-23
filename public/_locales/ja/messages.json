@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "画像の URL をクリップボードにコピー"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "画像の保存場所"
   }
 }

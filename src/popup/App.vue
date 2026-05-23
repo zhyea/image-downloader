@@ -413,9 +413,6 @@ onUnmounted(() => {
           />
         </div>
       </div>
-      <p class="filter-hint">
-        {{ t("filterHint") }}
-      </p>
     </div>
     <div
       v-show="listVisible"
@@ -701,13 +698,6 @@ button.primary:hover:not(:disabled) {
 
 .dual-range-max {
   z-index: 2;
-}
-
-.filter-hint {
-  margin: 6px 0 0;
-  font-size: 10px;
-  color: #9ca3af;
-  line-height: 1.35;
 }
 
 .grid {

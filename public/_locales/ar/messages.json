@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "نسخ عنوان الصورة إلى الحافظة"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "موقع حفظ الصور"
   }
 }

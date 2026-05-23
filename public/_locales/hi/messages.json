@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "छवि URL क्लिपबोर्ड पर कॉपी करें"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "चित्र सहेजने का स्थान"
   }
 }

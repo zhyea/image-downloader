@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "Копировать URL изображения"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "Папка для изображений"
   }
 }

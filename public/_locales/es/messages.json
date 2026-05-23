@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "Copiar URL de la imagen"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "Ubicación de guardado"
   }
 }

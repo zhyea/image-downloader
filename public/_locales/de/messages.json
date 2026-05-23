@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "Bild-URL in die Zwischenablage kopieren"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "Bildspeicherort"
   }
 }

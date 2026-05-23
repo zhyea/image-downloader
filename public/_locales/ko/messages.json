@@ -222,5 +222,8 @@
   },
   "tooltipCopyLink": {
     "message": "이미지 URL을 클립보드에 복사"
+  },
+  "popupPlaceholderSaveLocation": {
+    "message": "이미지 저장 위치"
   }
 }
