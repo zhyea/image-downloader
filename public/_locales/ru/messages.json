@@ -133,38 +133,10 @@
     "message": "…"
   },
   "filterWidth": {
-    "message": "Ширина · $1$–$2$ px (макс. $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "Ширина"
   },
   "filterHeight": {
-    "message": "Высота · $1$–$2$ px (макс. $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "Высота"
   },
   "ariaWidthRange": {
     "message": "Диапазон ширины"

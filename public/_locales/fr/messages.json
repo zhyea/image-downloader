@@ -133,38 +133,10 @@
     "message": "…"
   },
   "filterWidth": {
-    "message": "Largeur · $1$–$2$ px (max $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "Largeur"
   },
   "filterHeight": {
-    "message": "Hauteur · $1$–$2$ px (max $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "Hauteur"
   },
   "ariaWidthRange": {
     "message": "Plage de largeur"

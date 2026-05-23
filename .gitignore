@@ -33,10 +33,10 @@ resources/.arch-internal-preview.css
 .arch-internal-preview.css
 
 !/.idea/
-
-*.idea
-dist
-node_modules
-/package-lock.json
 !/node_modules/
 !/dist/
+
+*.idea
+*dist
+*node_modules
+/package-lock.json

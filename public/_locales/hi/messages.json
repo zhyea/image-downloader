@@ -133,38 +133,10 @@
     "message": "…"
   },
   "filterWidth": {
-    "message": "चौड़ाई · $1$–$2$ px (अधिकतम $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "चौड़ाई"
   },
   "filterHeight": {
-    "message": "ऊँचाई · $1$–$2$ px (अधिकतम $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "ऊँचाई"
   },
   "ariaWidthRange": {
     "message": "चौड़ाई सीमा"

@@ -133,38 +133,10 @@
     "message": "…"
   },
   "filterWidth": {
-    "message": "幅 · $1$–$2$ px（上限 $3$）",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "幅"
   },
   "filterHeight": {
-    "message": "高さ · $1$–$2$ px（上限 $3$）",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "高さ"
   },
   "ariaWidthRange": {
     "message": "幅の範囲"

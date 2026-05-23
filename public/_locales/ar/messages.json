@@ -133,38 +133,10 @@
     "message": "…"
   },
   "filterWidth": {
-    "message": "العرض · $1$–$2$ بكسل (الحد $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "العرض"
   },
   "filterHeight": {
-    "message": "الارتفاع · $1$–$2$ بكسل (الحد $3$)",
-    "placeholders": {
-      "1": {
-        "content": "$1",
-        "example": "0"
-      },
-      "2": {
-        "content": "$2",
-        "example": "1920"
-      },
-      "3": {
-        "content": "$3",
-        "example": "4096"
-      }
-    }
+    "message": "الارتفاع"
   },
   "ariaWidthRange": {
     "message": "نطاق العرض"

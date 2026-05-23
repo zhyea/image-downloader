@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import SettingsRangeField from "../components/SettingsRangeField.vue";
 import { t } from "../lib/i18n.js";
 import { loadUserSettings, saveUserSettings } from "../lib/userSettings.js";
 
@@ -40,39 +41,31 @@ onUnmounted(() => clearTimeout(persistTimer));
       <p class="settings-lead">{{ t("settingsLead") }}</p>
     </header>
 
-    <section class="settings-section" :aria-busy="saving || undefined">
-      <label class="field-label" for="w-range">{{ t("settingsLabelPopupWidth") }}</label>
-      <div class="field-row">
-        <input
-          id="w-range"
-          v-model.number="popupWidthPx"
-          type="range"
-          min="320"
-          max="800"
-          step="8"
-          @input="schedulePersist"
-        />
-        <output class="field-value" for="w-range">{{ t("settingsValuePx", [String(popupWidthPx)]) }}</output>
-      </div>
-      <p class="field-hint">{{ t("settingsHintPopupWidth") }}</p>
-    </section>
+    <SettingsRangeField
+      id="w-range"
+      v-model="popupWidthPx"
+      :label="t('settingsLabelPopupWidth')"
+      :hint="t('settingsHintPopupWidth')"
+      :min="320"
+      :max="800"
+      :step="8"
+      :value-text="t('settingsValuePx', [String(popupWidthPx)])"
+      :busy="saving"
+      @input="schedulePersist"
+    />
 
-    <section class="settings-section" :aria-busy="saving || undefined">
-      <label class="field-label" for="c-range">{{ t("settingsLabelGridColumns") }}</label>
-      <div class="field-row">
-        <input
-          id="c-range"
-          v-model.number="gridColumns"
-          type="range"
-          min="1"
-          max="6"
-          step="1"
-          @input="schedulePersist"
-        />
-        <output class="field-value" for="c-range">{{ t("settingsValueColumns", [String(gridColumns)]) }}</output>
-      </div>
-      <p class="field-hint">{{ t("settingsHintGridColumns") }}</p>
-    </section>
+    <SettingsRangeField
+      id="c-range"
+      v-model="gridColumns"
+      :label="t('settingsLabelGridColumns')"
+      :hint="t('settingsHintGridColumns')"
+      :min="1"
+      :max="6"
+      :step="1"
+      :value-text="t('settingsValueColumns', [String(gridColumns)])"
+      :busy="saving"
+      @input="schedulePersist"
+    />
 
     <p class="settings-footnote">{{ t("settingsFootnote") }}</p>
   </div>
@@ -108,48 +101,6 @@ onUnmounted(() => clearTimeout(persistTimer));
   margin: 0 0 24px;
   color: #5c6370;
   line-height: 1.45;
-}
-
-.settings-section {
-  margin-bottom: 20px;
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #e4e6eb;
-  border-radius: 10px;
-}
-
-.field-label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 10px;
-  color: #374151;
-}
-
-.field-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.field-row input[type="range"] {
-  flex: 1;
-  min-width: 0;
-  accent-color: #2563eb;
-}
-
-.field-value {
-  flex-shrink: 0;
-  min-width: 5em;
-  font-variant-numeric: tabular-nums;
-  color: #2563eb;
-  font-weight: 500;
-}
-
-.field-hint {
-  margin: 10px 0 0;
-  font-size: 12px;
-  color: #9ca3af;
-  line-height: 1.4;
 }
 
 .settings-footnote {
