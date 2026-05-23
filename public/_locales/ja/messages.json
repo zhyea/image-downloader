@@ -9,7 +9,7 @@
     "message": "Image Downloader — 設定"
   },
   "settingsLead": {
-    "message": "ポップアップの見た目を調整します。変更は自動で保存されます。"
+    "message": "保存先とポップアップの見た目を調整します。変更は自動で保存されます。"
   },
   "settingsLabelPopupWidth": {
     "message": "ポップアップの幅"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "画像の保存場所"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "保存場所"
+  },
+  "settingsHintSaveLocation": {
+    "message": "ブラウザの既定ダウンロードフォルダ内のサブフォルダ。空欄の場合は既定の場所に保存。/ で階層を指定（例: 画像/壁紙）。"
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "例: 画像/壁紙"
   }
 }

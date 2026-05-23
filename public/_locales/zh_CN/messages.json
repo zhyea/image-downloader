@@ -9,7 +9,7 @@
     "message": "Image Downloader — 设置"
   },
   "settingsLead": {
-    "message": "调整弹窗外观。修改会自动保存。"
+    "message": "调整下载保存位置与弹窗布局。变更会自动保存。"
   },
   "settingsLabelPopupWidth": {
     "message": "弹窗宽度"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "图片保存位置"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "保存位置"
+  },
+  "settingsHintSaveLocation": {
+    "message": "相对于浏览器默认下载目录的子文件夹。留空则保存到默认位置。用 / 表示多级目录，例如：图片/壁纸。"
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "例如：图片/壁纸"
   }
 }

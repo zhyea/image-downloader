@@ -1,11 +1,13 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import SettingsRangeField from "../components/SettingsRangeField.vue";
+import SettingsTextField from "../components/SettingsTextField.vue";
 import { t } from "../lib/i18n.js";
 import { loadUserSettings, saveUserSettings } from "../lib/userSettings.js";
 
 const popupWidthPx = ref(456);
 const gridColumns = ref(3);
+const downloadSubfolder = ref("");
 const saving = ref(false);
 let persistTimer;
 
@@ -13,6 +15,7 @@ async function refresh() {
   const s = await loadUserSettings();
   popupWidthPx.value = s.popupWidthPx;
   gridColumns.value = s.gridColumns;
+  downloadSubfolder.value = s.downloadSubfolder;
 }
 
 function schedulePersist() {
@@ -20,10 +23,12 @@ function schedulePersist() {
   persistTimer = setTimeout(async () => {
     saving.value = true;
     try {
-      await saveUserSettings({
+      const next = await saveUserSettings({
         popupWidthPx: popupWidthPx.value,
         gridColumns: gridColumns.value,
+        downloadSubfolder: downloadSubfolder.value,
       });
+      downloadSubfolder.value = next.downloadSubfolder;
     } finally {
       saving.value = false;
     }
@@ -40,6 +45,16 @@ onUnmounted(() => clearTimeout(persistTimer));
       <h1>{{ t("settingsTitle") }}</h1>
       <p class="settings-lead">{{ t("settingsLead") }}</p>
     </header>
+
+    <SettingsTextField
+      id="save-location"
+      v-model="downloadSubfolder"
+      :label="t('settingsLabelSaveLocation')"
+      :hint="t('settingsHintSaveLocation')"
+      :placeholder="t('settingsPlaceholderSaveLocation')"
+      :busy="saving"
+      @input="schedulePersist"
+    />
 
     <SettingsRangeField
       id="w-range"

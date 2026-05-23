@@ -1,8 +1,10 @@
 <script setup>
+import { computed } from "vue";
 import { t } from "../../lib/i18n.js";
-import { sourceLabel, formatItemDimensions } from "../../lib/imageMeta.js";
+import { formatItemDimensions } from "../../lib/imageMeta.js";
+import IconGlyph from "../../components/IconGlyph.vue";
 
-defineProps({
+const props = defineProps({
   item: { type: Object, required: true },
   index: { type: Number, required: true },
   selected: { type: Boolean, required: true },
@@ -12,6 +14,9 @@ defineProps({
 });
 
 const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
+
+const copyHint = computed(() => props.copyLabel || t("tooltipCopyLink"));
+const downloadHint = computed(() => props.downloadLabel || t("download"));
 </script>
 
 <template>
@@ -38,19 +43,26 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
       <span v-else class="thumb-fallback">—</span>
     </div>
     <div class="grid-meta">
-      <span class="tag">{{ sourceLabel(item.source) }} · {{ formatItemDimensions(item) }}</span>
+      <span class="tag">{{ formatItemDimensions(item) }}</span>
     </div>
     <div class="grid-actions">
       <button
         type="button"
-        class="ext-btn btn-copy"
-        :title="t('tooltipCopyLink')"
+        class="ext-btn ext-btn--icon ext-btn--icon-sm btn-copy"
+        :title="copyHint"
+        :aria-label="copyHint"
         @click="emit('copy')"
       >
-        {{ copyLabel || t("copyLink") }}
+        <IconGlyph name="copy" :size="12" />
       </button>
-      <button type="button" class="ext-btn ext-btn--primary btn-dl" @click="emit('download')">
-        {{ downloadLabel || t("download") }}
+      <button
+        type="button"
+        class="ext-btn ext-btn--icon ext-btn--icon-sm ext-btn--primary btn-dl"
+        :title="downloadHint"
+        :aria-label="downloadHint"
+        @click="emit('download')"
+      >
+        <IconGlyph name="download" :size="12" />
       </button>
     </div>
   </div>
@@ -110,8 +122,8 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
 }
 
 .grid-meta {
-  margin-top: 6px;
-  min-height: 2.4em;
+  margin-top: 4px;
+  min-height: 0;
 }
 
 .grid-meta .tag {
@@ -130,15 +142,13 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 6px;
+  gap: 4px;
   margin-top: 6px;
 }
 
 .grid-actions button {
   flex: 1;
   min-width: 0;
-  padding: 4px;
-  font-size: 11px;
 }
 
 .btn-copy {

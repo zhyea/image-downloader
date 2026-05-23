@@ -9,7 +9,16 @@
     "message": "Image Downloader — Settings"
   },
   "settingsLead": {
-    "message": "Adjust how the popup looks. Changes are saved automatically."
+    "message": "Adjust download location and popup layout. Changes are saved automatically."
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Save location"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Subfolder under your browser's default download folder. Leave empty to use the default. Use / for nested folders, e.g. Images/Wallpapers."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "e.g. Images/Wallpapers"
   },
   "settingsLabelPopupWidth": {
     "message": "Popup width"

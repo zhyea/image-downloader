@@ -9,7 +9,7 @@
     "message": "Image Downloader — 설정"
   },
   "settingsLead": {
-    "message": "팝업 모양을 조정합니다. 변경 사항은 자동으로 저장됩니다."
+    "message": "저장 위치와 팝업 레이아웃을 조정합니다. 변경 사항은 자동 저장됩니다."
   },
   "settingsLabelPopupWidth": {
     "message": "팝업 너비"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "이미지 저장 위치"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "저장 위치"
+  },
+  "settingsHintSaveLocation": {
+    "message": "브라우저 기본 다운로드 폴더 아래 하위 폴더. 비우면 기본 위치에 저장. / 로 하위 경로 지정(예: 이미지/배경)."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "예: 이미지/배경"
   }
 }

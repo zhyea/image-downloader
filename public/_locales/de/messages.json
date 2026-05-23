@@ -9,7 +9,7 @@
     "message": "Image Downloader — Einstellungen"
   },
   "settingsLead": {
-    "message": "Passen Sie das Erscheinungsbild des Popups an. Änderungen werden automatisch gespeichert."
+    "message": "Speicherort und Popup-Layout anpassen. Änderungen werden automatisch gespeichert."
   },
   "settingsLabelPopupWidth": {
     "message": "Popup-Breite"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "Bildspeicherort"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Speicherort"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Unterordner im Standard-Downloadordner des Browsers. Leer lassen für Standard. Mit / verschachteln, z. B. Bilder/Hintergründe."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "z. B. Bilder/Hintergründe"
   }
 }

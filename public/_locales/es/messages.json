@@ -9,7 +9,7 @@
     "message": "Image Downloader — Ajustes"
   },
   "settingsLead": {
-    "message": "Cambia el aspecto del menú emergente. Los cambios se guardan solos."
+    "message": "Ajusta la ubicación de guardado y el diseño del popup. Los cambios se guardan solos."
   },
   "settingsLabelPopupWidth": {
     "message": "Ancho del menú emergente"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "Ubicación de guardado"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Ubicación de guardado"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Subcarpeta dentro de la carpeta de descargas predeterminada. Déjela vacía para la predeterminada. Use / para niveles, p. ej. Imágenes/Fondos."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "p. ej. Imágenes/Fondos"
   }
 }

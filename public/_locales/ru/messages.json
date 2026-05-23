@@ -9,7 +9,7 @@
     "message": "Image Downloader — Настройки"
   },
   "settingsLead": {
-    "message": "Настройте внешний вид всплывающего окна. Изменения сохраняются автоматически."
+    "message": "Папка сохранения и вид всплывающего окна. Изменения сохраняются автоматически."
   },
   "settingsLabelPopupWidth": {
     "message": "Ширина всплывающего окна"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "Папка для изображений"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Папка сохранения"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Подпапка в папке загрузок браузера по умолчанию. Пусто — сохранение в корень. Используйте / для вложенности, напр. Изображения/Обои."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "напр. Изображения/Обои"
   }
 }

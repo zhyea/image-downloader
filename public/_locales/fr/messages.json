@@ -9,7 +9,7 @@
     "message": "Image Downloader — Paramètres"
   },
   "settingsLead": {
-    "message": "Modifiez l’apparence de la fenêtre contextuelle. Les changements sont enregistrés automatiquement."
+    "message": "Emplacement d’enregistrement et apparence du popup. Les modifications sont enregistrées automatiquement."
   },
   "settingsLabelPopupWidth": {
     "message": "Largeur de la fenêtre"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "Emplacement des images"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Emplacement d’enregistrement"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Sous-dossier du dossier de téléchargement par défaut. Laissez vide pour l’emplacement par défaut. Utilisez / pour les sous-dossiers, ex. Images/Fonds."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "ex. Images/Fonds"
   }
 }

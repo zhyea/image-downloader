@@ -1,7 +1,6 @@
 <script setup>
 import { computed } from "vue";
 import PopupToolbar from "./components/PopupToolbar.vue";
-import ImageSizeFilters from "./components/ImageSizeFilters.vue";
 import ImageGrid from "./components/ImageGrid.vue";
 import { usePopupController } from "./composables/usePopupController.js";
 
@@ -37,29 +36,28 @@ const {
 } = usePopupController();
 
 const hasFilteredImages = computed(() => filteredImages.value.length > 0);
+const showFilters = computed(() => listVisible.value && images.value.length > 0);
 </script>
 
 <template>
   <div class="popup-root" :style="{ width: `${popupWidthPx}px` }">
     <PopupToolbar
+      v-model:filter-min-w="filterMinW"
+      v-model:filter-max-w="filterMaxW"
+      v-model:filter-min-h="filterMinH"
+      v-model:filter-max-h="filterMaxH"
       :all-filtered-selected="allFilteredSelected"
       :list-visible="listVisible"
       :has-filtered-images="hasFilteredImages"
       :downloading-all="downloadingAll"
       :selected-count="selectedCount"
+      :show-filters="showFilters"
+      :slider-max-w="sliderMaxW"
+      :slider-max-h="sliderMaxH"
       @refresh="runScan"
       @toggle-select-all="toggleSelectAllFiltered"
       @download-selected="onDownloadSelected"
       @open-settings="openSettingsPage"
-    />
-    <ImageSizeFilters
-      v-show="listVisible && images.length"
-      v-model:filter-min-w="filterMinW"
-      v-model:filter-max-w="filterMaxW"
-      v-model:filter-min-h="filterMinH"
-      v-model:filter-max-h="filterMaxH"
-      :slider-max-w="sliderMaxW"
-      :slider-max-h="sliderMaxH"
     />
     <ImageGrid
       :status-text="statusText"

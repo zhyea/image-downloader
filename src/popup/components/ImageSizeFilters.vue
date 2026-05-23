@@ -5,6 +5,7 @@ import { t } from "../../lib/i18n.js";
 defineProps({
   sliderMaxW: { type: Number, required: true },
   sliderMaxH: { type: Number, required: true },
+  embedded: { type: Boolean, default: false },
 });
 
 const filterMinW = defineModel("filterMinW", { type: Number, required: true });
@@ -14,7 +15,7 @@ const filterMaxH = defineModel("filterMaxH", { type: Number, required: true });
 </script>
 
 <template>
-  <div class="filters">
+  <div class="filters" :class="{ 'filters--embedded': embedded }">
     <DualRange
       v-model:min-value="filterMinW"
       v-model:max-value="filterMaxW"
@@ -49,5 +50,14 @@ const filterMaxH = defineModel("filterMaxH", { type: Number, required: true });
   background: #fff;
   border: 1px solid #e4e6eb;
   border-radius: 8px;
+}
+
+.filters--embedded {
+  margin: 0;
+  padding: 6px 12px 10px;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #e4e6eb;
+  background: transparent;
 }
 </style>

@@ -9,7 +9,7 @@
     "message": "Image Downloader — सेटिंग्स"
   },
   "settingsLead": {
-    "message": "पॉपअप का रूप बदलें। बदलाव स्वतः सहेजे जाते हैं।"
+    "message": "सेव स्थान और पॉपअप लेआउट समायोजित करें। बदलाव स्वतः सेव होते हैं।"
   },
   "settingsLabelPopupWidth": {
     "message": "पॉपअप चौड़ाई"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "चित्र सहेजने का स्थान"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "सेव स्थान"
+  },
+  "settingsHintSaveLocation": {
+    "message": "ब्राउज़र के डिफ़ॉल्ट डाउनलोड फ़ोल्डर के अंतर्गत उप-फ़ोल्डर। डिफ़ॉल्ट के लिए खाली छोड़ें। / से स्तर दें, जैसे: Images/Wallpapers।"
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "जैसे: Images/Wallpapers"
   }
 }

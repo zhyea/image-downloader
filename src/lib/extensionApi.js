@@ -1,4 +1,6 @@
 import browser from "webextension-polyfill";
+import { joinDownloadPath } from "./downloadPath.js";
+import { loadUserSettings } from "./userSettings.js";
 
 export function filenameFromUrl(url, index) {
   try {
@@ -35,7 +37,9 @@ export async function collectFromTab(tabId) {
 }
 
 export async function downloadImage(item, index) {
-  const filename = filenameFromUrl(item.url, index);
+  const settings = await loadUserSettings();
+  const basename = filenameFromUrl(item.url, index);
+  const filename = joinDownloadPath(settings.downloadSubfolder, basename);
 
   if (item.url.startsWith("blob:")) {
     try {

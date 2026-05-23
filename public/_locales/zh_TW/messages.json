@@ -9,7 +9,7 @@
     "message": "Image Downloader — 設定"
   },
   "settingsLead": {
-    "message": "調整彈窗外觀。變更會自動儲存。"
+    "message": "調整下載儲存位置與彈窗外觀。變更會自動儲存。"
   },
   "settingsLabelPopupWidth": {
     "message": "彈窗寬度"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "圖片儲存位置"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "儲存位置"
+  },
+  "settingsHintSaveLocation": {
+    "message": "相對於瀏覽器預設下載資料夾的子資料夾。留空則使用預設位置。以 / 表示多層目錄，例如：圖片/桌布。"
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "例如：圖片/桌布"
   }
 }

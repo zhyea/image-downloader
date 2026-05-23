@@ -9,7 +9,7 @@
     "message": "Image Downloader — الإعدادات"
   },
   "settingsLead": {
-    "message": "اضبط مظهر النافذة المنبثقة. تُحفظ التغييرات تلقائياً."
+    "message": "اضبط موقع الحفظ ومظهر النافذة. تُحفظ التغييرات تلقائياً."
   },
   "settingsLabelPopupWidth": {
     "message": "عرض النافذة المنبثقة"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "موقع حفظ الصور"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "موقع الحفظ"
+  },
+  "settingsHintSaveLocation": {
+    "message": "مجلد فرعي ضمن مجلد التنزيل الافتراضي. اتركه فارغاً للموقع الافتراضي. استخدم / للمجلدات المتداخلة، مثل: صور/خلفيات."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "مثال: صور/خلفيات"
   }
 }

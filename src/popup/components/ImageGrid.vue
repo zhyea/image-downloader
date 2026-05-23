@@ -18,26 +18,28 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
 
 <template>
   <section class="grid-panel">
-    <p class="status" :class="{ error: statusError }">{{ statusText }}</p>
-    <div
-      v-show="listVisible"
-      class="grid"
-      :style="{ gridTemplateColumns: `repeat(${gridColumns}, 1fr)` }"
-    >
-      <ImageGridItem
-        v-for="(item, index) in items"
-        :key="item.url"
-        :item="item"
-        :index="index"
-        :selected="selectedKeys.has(item.url)"
-        :thumb-visible="thumbOk(item)"
-        :copy-label="copyLabels[item.url]"
-        :download-label="downloadLabels[item.url]"
-        @toggle-select="emit('toggle-select', item, $event)"
-        @thumb-error="emit('thumb-error', item)"
-        @copy="emit('copy', item)"
-        @download="emit('download', item, index)"
-      />
+    <div class="grid-scroll">
+      <p class="status" :class="{ error: statusError }">{{ statusText }}</p>
+      <div
+        v-show="listVisible"
+        class="grid"
+        :style="{ gridTemplateColumns: `repeat(${gridColumns}, 1fr)` }"
+      >
+        <ImageGridItem
+          v-for="(item, index) in items"
+          :key="item.url"
+          :item="item"
+          :index="index"
+          :selected="selectedKeys.has(item.url)"
+          :thumb-visible="thumbOk(item)"
+          :copy-label="copyLabels[item.url]"
+          :download-label="downloadLabels[item.url]"
+          @toggle-select="emit('toggle-select', item, $event)"
+          @thumb-error="emit('thumb-error', item)"
+          @copy="emit('copy', item)"
+          @download="emit('download', item, index)"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -46,6 +48,11 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
 .grid-panel {
   margin: 0;
   padding: 0 10px 10px;
+}
+
+.grid-scroll {
+  max-height: 450px;
+  overflow-y: auto;
 }
 
 .status {
@@ -61,7 +68,5 @@ const emit = defineEmits(["toggle-select", "thumb-error", "copy", "download"]);
 .grid {
   display: grid;
   gap: 8px;
-  max-height: 420px;
-  overflow-y: auto;
 }
 </style>

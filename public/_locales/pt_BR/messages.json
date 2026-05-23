@@ -9,7 +9,7 @@
     "message": "Image Downloader — Configurações"
   },
   "settingsLead": {
-    "message": "Ajuste a aparência do pop-up. As alterações são salvas automaticamente."
+    "message": "Ajuste o local de salvamento e o layout do popup. As alterações são salvas automaticamente."
   },
   "settingsLabelPopupWidth": {
     "message": "Largura do pop-up"
@@ -197,5 +197,14 @@
   },
   "popupPlaceholderSaveLocation": {
     "message": "Local para salvar imagens"
+  },
+  "settingsLabelSaveLocation": {
+    "message": "Local de salvamento"
+  },
+  "settingsHintSaveLocation": {
+    "message": "Subpasta da pasta de downloads padrão do navegador. Deixe vazio para o padrão. Use / para níveis, ex.: Imagens/Papéis."
+  },
+  "settingsPlaceholderSaveLocation": {
+    "message": "ex.: Imagens/Papéis"
   }
 }

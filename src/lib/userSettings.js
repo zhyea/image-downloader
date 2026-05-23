@@ -1,10 +1,12 @@
 import browser from "webextension-polyfill";
+import { sanitizeDownloadSubfolder } from "./downloadPath.js";
 
 export const STORAGE_KEY = "imageDownloaderSettings";
 
 export const DEFAULT_SETTINGS = {
   popupWidthPx: 456,
   gridColumns: 3,
+  downloadSubfolder: "",
 };
 
 const LIMITS = {
@@ -35,6 +37,7 @@ export async function loadUserSettings() {
         LIMITS.gridColumns.max,
         DEFAULT_SETTINGS.gridColumns,
       ),
+      downloadSubfolder: sanitizeDownloadSubfolder(raw.downloadSubfolder),
     };
   } catch {
     return { ...DEFAULT_SETTINGS };
@@ -55,6 +58,9 @@ export async function saveUserSettings(partial) {
       LIMITS.gridColumns.min,
       LIMITS.gridColumns.max,
       DEFAULT_SETTINGS.gridColumns,
+    ),
+    downloadSubfolder: sanitizeDownloadSubfolder(
+      partial.downloadSubfolder ?? cur.downloadSubfolder,
     ),
   };
   await browser.storage.local.set({ [STORAGE_KEY]: next });
